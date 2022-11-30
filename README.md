@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Surprise Housing - Australian market
+> Surprise Housing is a US based housing company. They buy houses at lower price and sell it at higher price. They was to enter into Australian market. The company collected data which is provided in train.csv file will be used to develop ML model to predict price of the houses.
 
 
 ## Table of Contents
@@ -11,38 +11,31 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Surprise Housing company has collected data with various features. Linear Regression model has been developed to analyze and predict price of the houses.
+- Surprise Housing company is entering Australian market and hence the model has selected few features that will affect the Sale Price of the houses. The company can utilize this details and make strategic decision using these features to make best profit in housing business.
+- The model uses Linear Regression, Ridge and Lasso regression regularization is applied to provide best predictive analysis.
+- The model uses train.csv data set which has the data collected by Surprise Housing company to analyze the Australian market.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The model developed has around 82% accuracy, which means that the model will predict Sale Price accurately for 82% of the data.
+- The mean square error is 0.2 %, which means that the predicted value has an error of plus or minus 0.2%
+- The model identifies 15 features to be used to analyze the Sale Price.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python and libraries necessary to build Linear Regression, Ridge and Lasso regressions
+- Git
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@krsreedhar] - feel free to contact me!
 
 
 <!-- Optional -->
